@@ -9,6 +9,6 @@ if [ "$NCMP" = "[playing]" ];then
     else
         echo " : $S_NCMP…"
     fi
-else
-    echo " :Pause "
+# else
+#     echo " :Pause "
 fi

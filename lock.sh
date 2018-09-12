@@ -1,7 +1,7 @@
 #!/bin/bash
 scrot /tmp/screen.png
-# convert /tmp/screen.png -scale 10% -scale 1000% /tmp/screen.png
-convert /tmp/screen.png -paint 3 /tmp/screen.png
+# convert /tmp/screen.png -paint 1 /tmp/screen.png
+convert /tmp/screen.png -paint 1 -scale 10% -scale 1000% /tmp/screen.png
 if [[ -f $HOME/.config/i3/lock.png ]]
 then
     # placement x/y
